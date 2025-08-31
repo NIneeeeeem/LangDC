@@ -1,0 +1,48 @@
+# Python
+__pycache__
+*.pyc
+*.egg-info
+dist
+.cache
+# Log
+*.log
+*.log.*
+*.json
+*.jsonl
+
+# Data
+!**/alpaca-data-conversation.json
+
+# Editor
+.idea
+*.swp
+
+# Other
+.DS_Store
+wandb
+output
+
+checkpoints
+ckpts*
+
+.ipynb_checkpoints
+*.ipynb
+
+# DevContainer
+!.devcontainer/*
+
+# Demo
+serve_images/
+
+# weights
+.cache
+.vscode
+openai
+OpenGVLab
+results
+logs
+
+# clean soon
+langdc
+scripts
+eval
