@@ -37,12 +37,13 @@ serve_images/
 # weights
 .cache
 .vscode
+.cidebuddy
 openai
 OpenGVLab
 results
 logs
 
 # clean soon
-langdc
 scripts
-eval
+weights
+langdc/train/

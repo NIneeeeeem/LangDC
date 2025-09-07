@@ -3,6 +3,15 @@
   <h1>Seeing More, Saying More: Lightweight Language Experts are Dynamic Video Token Compressors</h1> 
 </div>
 
+<h5 align="center"> 
+
+[![arXiv](https://img.shields.io/badge/LangDC-2509.00969-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2509.00969)
+[![GitHub](https://img.shields.io/badge/GitHub-Code-green?logo=github)](https://github.com/NIneeeeeem/LangDC)
+[![HuggingFace](https://img.shields.io/badge/🤗%20Model-Huggingface-yellow)](https://huggingface.co/Wangxc1000/LangDC)
+
+ <br>
+
+</h5>
 
 ## LangDC Overview 
 
@@ -51,14 +60,23 @@ python setup.py install
 ---
 
 ## Quantitative Evaluation 📊
-We provide instructions to reproduce LangDC results on MVBench, VideoMME. Please follow the instructions at [eval/README.md](eval/README.md).
+We provide instructions to reproduce LangDC results on VideoMME, MVBench, LongVideoBench, VSIBench and four open-ended QA Benchmark. Please follow the instructions at [eval/README.md](eval/README.md).
+
+To reproduce the results in Table 1 of the Motivation chapter, please refer to [this repository](https://github.com/NIneeeeeem/VideoGPT-tokenadapter.git).
 
 
 ## Citations 📜:
 
 If you're using LangDC in your research or applications, please give us a star ⭐ to support us and cite using this BibTeX:
 ```bibtex
-
+@misc{wang2025seeing,
+    title={Seeing More, Saying More: Lightweight Language Experts are Dynamic Video Token Compressors},
+    author={Xiangchen Wang and Jinrui Zhang and Teng Wang and Haigang Zhang and Feng Zheng},
+    year={2025},
+    eprint={2509.00969},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
 ```
 
 ## Acknowledgements 
